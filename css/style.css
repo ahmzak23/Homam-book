@@ -90,6 +90,23 @@ img {
     text-decoration: underline;
 }
 
+/* Hide mobile menu header and close button on desktop */
+.menu-header {
+    display: none;
+}
+
+.menu-title {
+    display: none;
+}
+
+.menu-close {
+    display: none;
+}
+
+.mobile-menu-overlay {
+    display: none;
+}
+
 /* Mobile Menu Toggle Button */
 .mobile-menu-toggle {
     display: none;
@@ -991,7 +1008,7 @@ section {
         right: 0;
     }
 
-    /* Mobile Menu Header */
+    /* Mobile Menu Header - Show on mobile only */
     .menu-header {
         display: flex;
         align-items: center;
