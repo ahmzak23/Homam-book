@@ -1,9 +1,387 @@
 <!DOCTYPE html>
-<html>
+<html lang="ar" dir="rtl">
 <head>
-  <title>My Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="مغامرات همام - كتاب تعليمي ممتع للأطفال مليء بالألغاز والقصص والمغامرات">
+    <title>مغامرات همام - كتاب تعليمي للأطفال</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>Hello from GitHub Pages</h1>
+    <!-- Header Section -->
+    <header class="header">
+        <nav class="nav">
+            <div class="container">
+                <div class="logo">
+                    <h1>مغامرات همام</h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#about">عن الكتاب</a></li>
+                    <li><a href="#features">المميزات</a></li>
+                    <li><a href="#testimonials">آراء العملاء</a></li>
+                    <li><a href="#download" class="btn-nav">اطلب الآن</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <p class="hero-badge">
+                <span class="star-icon">⭐</span>
+                كتاب تعليمي ممتع للأطفال
+            </p>
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        مغامرات <span class="highlight">هُمام</span>
+                    </h1>
+                    <p class="hero-description">
+                        كتاب تفاعلي يجمع بين المتعة والتعلم بطريقة مبتكرة. يساعد طفلك على تنمية مهاراته 
+                        المعرفية والإبداعية من خلال أنشطة متنوعة تشمل الألغاز، القصص، الرسم والتلوين.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="mailto:ahmskaik@gmail.com" class="btn btn-primary">
+                            <span>📚</span>
+                            احصل على الكتاب
+                        </a>
+                        <a href="#about" class="btn btn-secondary">اقرأ عينة مجانية</a>
+                    </div>
+                    <div class="hero-stats">
+                       <!--  <div class="hero-stat">
+                            <span class="stat-value">4.9</span>
+                            <span class="stat-star">⭐</span>
+                           <span class="stat-label">تقييم الآباء</span>
+                        </div>-->
+                        <div class="hero-stat">
+                            <span class="stat-value">+8</span>
+                            <span class="stat-label">سنوات العمر</span>
+                        </div>
+                        <div class="hero-stat">
+                            <span class="stat-value">50+</span>
+                            <span class="stat-label">نشاط تفاعلي</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="character-greeting">
+                        <p>مرحباً صديقي!<br>هيا نبدأ مغامرتنا</p>
+                    </div>
+                    <div class="book-cover">
+                        <div class="book-spine"></div>
+                        <div class="book-pages">
+                            <img src="cover.png" alt="Book Cover" class="cover-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">عن الكتاب</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        <strong>مغامرات همام</strong> هو كتاب تعليمي تفاعلي مصمم خصيصاً للأطفال، 
+                        يجمع بين المتعة والتعلم في رحلة مليئة بالمغامرات والألغاز.
+                    </p>
+                    <p>
+                        يقدم الكتاب شخصية <strong>همام</strong> - طفل ذكي وشجاع عمره ثماني سنوات، 
+                        يحب التعلم والاكتشاف. من خلال مغامراته، يتعلم الأطفال مهارات مهمة 
+                        مثل حل المشكلات، التركيز، والتفكير المنطقي.
+                    </p>
+                    <p>
+                        الكتاب يحتوي على أنشطة متنوعة تشمل الألغاز، القصص، الألعاب التفاعلية، 
+                        والتمارين التعليمية التي تنمي المهارات المعرفية والحركية لدى الطفل.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">34</div>
+                        <div class="stat-label">صفحة</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">10+</div>
+                        <div class="stat-label">نشاط تفاعلي</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">8</div>
+                        <div class="stat-label">سنوات+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">لماذا مغامرات همام؟</h2>
+            <p class="section-subtitle">كتاب مصمم بعناية ليجعل التعلم متعة حقيقية لطفلك</p>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🧠</div>
+                    <h3>تنمية الذكاء</h3>
+                    <p>تمارين ذهنية تقوي الذاكرة والتركيز</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎨</div>
+                    <h3>أنشطة فنية</h3>
+                    <p>رسم وتلوين ينمي المهارات الإبداعية</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🧩</div>
+                    <h3>ألغاز ممتعة</h3>
+                    <p>ألغاز متنوعة تحفز التفكير المنطقي والإبداعي</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🏆</div>
+                    <h3>إنجازات</h3>
+                    <p>نظام مكافآت يحفز الطفل على الإنجاز</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">👨‍👩‍👧‍👦</div>
+                    <h3>للعائلة</h3>
+                    <p>أنشطة يمكن مشاركتها مع الأهل والأصدقاء</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💡</div>
+                    <h3>تعلم تفاعلي</h3>
+                    <p>أسلوب ممتع يجمع بين اللعب والتعليم</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Meet Hammam Section -->
+    <section id="meet-hammam" class="meet-hammam">
+        <div class="container">
+            <h2 class="section-title">تعرف على همام</h2>
+            <div class="meet-content">
+                <div class="meet-text">
+                    <div class="meet-card">
+                        <p>
+                            اسمي <strong>همام</strong>، وعمري ثماني سنوات. أُحبُّ التعلّم والاكتشاف.
+                            يقول أبي إنّني ذكي لأنني أفكّر قبل أن أنصرّف، وتقول أمّي إنّني شجاع 
+                            لأنني لا أخاف من التجربة والتعلّم.
+                        </p>
+                        <p>
+                            في هذا الكتاب سأكون صديقك في رحلة ممتعة! سنلعب ونتعلّم معاً، نحلُّ الألغاز، 
+                            نرسم، نلوّن، ونستخدمُ عقولنا بذكاء.
+                        </p>
+                    </div>
+                </div>
+                <div class="meet-features">
+                    <ul class="features-list">
+                        <li>
+                            <span class="check-icon">✓</span>
+                            أكثر من 50 نشاط تعليمي متنوع
+                        </li>
+                        <li>
+                            <span class="check-icon">✓</span>
+                            تمارين للذاكرة والتركيز
+                        </li>
+                        <li>
+                            <span class="check-icon">✓</span>
+                            صفحات للرسم والتلوين
+                        </li>
+                        <li>
+                            <span class="check-icon">✓</span>
+                            قصص قصيرة ممتعة
+                        </li>
+                        <li>
+                            <span class="check-icon">✓</span>
+                            ألغاز رياضية ومنطقية
+                        </li>
+                        <li>
+                            <span class="check-icon">✓</span>
+                            مناسب للأعمار من 6-10 سنوات
+                        </li>
+                    </ul>
+                    <div class="age-badge">
+                        <span>8 سنوات</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">ماذا يقول الآباء؟</h2>
+            <p class="section-subtitle">آراء حقيقية من عائلات سعيدة بمغامرات همام</p>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="quote-icon">"</div>
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">
+                        كتاب رائع! لاحظت تحسناً كبيراً في تركيز ابنتي وحبها لحل المشكلات بعد استخدام 
+                        هذا الكتاب. الأنشطة متنوعة وممتعة جداً.
+                    </p>
+                    <div class="testimonial-author">
+                        <strong>أم سارة</strong>
+                        <span>أم لطفلين</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote-icon">"</div>
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">
+                        أنصح به بشدة! من أفضل الكتب التعليمية التي استخدمناها. الأنشطة متنوعة وتناسب 
+                        أطفالنا الثلاثة بسهولة. ممتاز!
+                    </p>
+                    <div class="testimonial-author">
+                        <strong>أبو محمد</strong>
+                        <span>أب لثلاثة أطفال</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote-icon">"</div>
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">
+                        كمعلمة، أستخدم هذا الكتاب كمرجع إضافي لطلابي. التصميم التعليمي ممتاز 
+                        والأهداف التربوية واضحة ومحددة.
+                    </p>
+                    <div class="testimonial-author">
+                        <strong>معلمة نورة</strong>
+                        <span>معلمة ابتدائي</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Activities Section -->
+    <section id="activities" class="activities">
+        <div class="container">
+            <h2 class="section-title">أنشطة الكتاب</h2>
+            <div class="activities-list">
+                <div class="activity-item">
+                    <span class="activity-number">1</span>
+                    <div class="activity-content">
+                        <h3>يوم الاكتشاف الكبير</h3>
+                        <p>أنشطة ترتيب وملاحظة تساعد الطفل على تطوير مهارات التركيز</p>
+                    </div>
+                </div>
+                <div class="activity-item">
+                    <span class="activity-number">2</span>
+                    <div class="activity-content">
+                        <h3>اللوح العجيب</h3>
+                        <p>أداة تفاعلية سحرية تساعد في حل الألغاز والأنشطة</p>
+                    </div>
+                </div>
+                <div class="activity-item">
+                    <span class="activity-number">3</span>
+                    <div class="activity-content">
+                        <h3>لغز الصورة المبعثرة</h3>
+                        <p>ألعاب بازل تنمي المهارات البصرية والمنطقية</p>
+                    </div>
+                </div>
+                <div class="activity-item">
+                    <span class="activity-number">4</span>
+                    <div class="activity-content">
+                        <h3>تعلم قصة جديدة</h3>
+                        <p>قصص تفاعلية مع أنشطة ترتيب الأحداث</p>
+                    </div>
+                </div>
+                <div class="activity-item">
+                    <span class="activity-number">5</span>
+                    <div class="activity-content">
+                        <h3>تنظيم الوقت</h3>
+                        <p>أنشطة تعليمية لتنظيم اليوم وفهم الوقت</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download">
+        <div class="container">
+            <div class="download-content">
+                <div class="special-offer">
+                    <span class="gift-icon">🎁</span>
+                    عرض خاص لفترة محدودة!
+                </div>
+                <h2 class="section-title">ابدأ مغامرة طفلك اليوم!</h2>
+                <p class="download-description">
+                    اهد طفلك كتاباً يجمع بين المتعة والفائدة. مغامرات همام ينتظرك!
+                </p>
+                <a href="مغامرات همام-final+.pdf" class="btn btn-download" download>
+                    <span>⭐</span>
+                    اطلب نسختك الآن
+                </a>
+                <!--<div class="download-benefits">
+                    <div class="benefit-item">
+                        <span class="benefit-dot"></span>
+                        شحن مجاني
+                    </div>
+                    <div class="benefit-item">
+                        <span class="benefit-dot"></span>
+                        ضمان استرداد المال
+                    </div>
+                    <div class="benefit-item">
+                        <span class="benefit-dot"></span>
+                        دعم فني 24/7
+                    </div>
+                </div>-->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>مغامرات همام</h3>
+                    <p>كتاب تعليمي تفاعلي للأطفال يجمع بين المتعة والتعلم بأسلوب مبتكر</p>
+                </div>
+                <div class="footer-section">
+                    <h4>روابط سريعة</h4>
+                    <ul>
+                        <li><a href="#about">عن الكتاب</a></li>
+                        <li><a href="#features">المميزات</a></li>
+                        <li><a href="#testimonials">الأسئلة الشائعة</a></li>
+                        <li><a href="#download">تواصل معنا</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>تواصل معنا</h4>
+                    <ul class="contact-list">
+                        <li>
+                            <span class="contact-icon">📧</span>
+                            ahmskaik@gmail.com
+                        </li>
+                        <li>
+                            <span class="contact-icon">📱</span>
+                            +962798841750
+                        </li>
+                        <li>
+                            <span class="contact-icon">📍</span>
+                           الأردن
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="footer-made">
+                    <span class="heart-icon">❤️</span>
+                    صنع للأطفال
+                </p>
+                <p>&copy; 2026 مغامرات همام. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
